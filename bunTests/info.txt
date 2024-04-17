@@ -1,0 +1,7 @@
+The binary is located at C:\Users\(tu usuario)\.bun\bin\bun.exe
+
+typescript definitions para Bun's built-in APIs
+bun add -d @types/bun
+
+
+aunque si haces "bun init -y" ya te genera un fichero "tsconfig.json" con los typescript definitions

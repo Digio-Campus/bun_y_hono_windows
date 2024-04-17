@@ -1,0 +1,22 @@
+{
+  "name": "buntests",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "comienzo": "bun run ./index.ts",
+    "commonhttp": "bun run ./commonhttp.ts",
+    "hotreload": "bun --hot run hotreload.ts",
+    "simpleHTTP": "bun --hot run simpleHTTP.ts",
+    "sendHTTPrequest": "bun --hot run sendHTTPrequest.ts",
+    "fileHTTP": "bun run fileHTTP.ts",
+    "updateFilesHTTP": "bun run updateFilesHTTP.ts",
+    "simpleWebSocket": "bun run simpleWebSocket.ts",
+    "publicSuscribeWebSocket": "bun run publicSuscribeWebSocket.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
