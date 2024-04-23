@@ -11,12 +11,19 @@
     "fileHTTP": "bun run fileHTTP.ts",
     "updateFilesHTTP": "bun run updateFilesHTTP.ts",
     "simpleWebSocket": "bun run simpleWebSocket.ts",
-    "publicSuscribeWebSocket": "bun run publicSuscribeWebSocket.ts"
+    "publicSuscribeWebSocket": "bun run publicSuscribeWebSocket.ts",
+    "AItest": "bun run AItest.ts",
+    "position": "bun run position.js"
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.50",
+    "@langchain/core": "^0.1.58",
+    "langchain": "^0.1.34"
   }
 }
