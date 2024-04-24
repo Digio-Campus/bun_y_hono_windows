@@ -1,8 +1,6 @@
 let socketId = 0;
 
 const server = Bun.serve({
-  hostname: "192.168.0.112",
-  port: 80,
   fetch(req, server) {
     const success = server.upgrade(req);
     if (success) return undefined;
